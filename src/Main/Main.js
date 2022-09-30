@@ -6,19 +6,19 @@ import Testimonial from './Testimonial/Testimonial';
 
 function Main() {
   return (
-    <div>
-         <div>
-            <Slider/>
-         </div>
-         <div>
-           <About/>
-         </div>
-         <div>
-           <Services/>
-         </div>
-         <div>
-           <Testimonial/>
-         </div>
+    <div className='main-container'>
+      <div>
+        <Slider />
+      </div>
+      <div>
+        <About />
+      </div>
+      <div>
+        <Services />
+      </div>
+      <div>
+        <Testimonial />
+      </div>
     </div>
   );
 }

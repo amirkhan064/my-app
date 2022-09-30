@@ -1,0 +1,39 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem 0rem 4rem;
+}
+
+.about-container .about-img {
+  width: 40%;
+}
+
+.about-container .about-desc {
+  width: 50%;
+}
+
+.about-container .about-desc h2 {
+  font-size: 3.5rem;
+  margin: 4rem 0 3rem 0;
+}
+
+.about-container .about-desc p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.about-container .about-desc .about-message {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.about-container .about-desc button {
+  font-size: 16px;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: #0c60e5;
+  color: #fff;
+  border: none;
+  margin-top: 2rem;
+}
