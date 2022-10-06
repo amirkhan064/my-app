@@ -1,0 +1,24 @@
+.grocery-container {
+  padding: 4rem;
+  background: #eee;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.grocery-container h3 {
+  padding: 16px;
+}
+
+.grocery-container input {
+  padding: 8px;
+  margin: 4px;
+}
+
+.grocery-container button {
+  background: #0c60e5;
+  padding: 10px 16px;
+  border: none;
+  color: #fff;
+}

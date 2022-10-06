@@ -13,3 +13,12 @@ img {
 .main-container {
   margin-bottom: 6rem;
 }
+
+.service-container {
+  padding: 4rem;
+  margin: 0 auto;
+}
+
+.service-container h1 {
+  text-align: center;
+}
