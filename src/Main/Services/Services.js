@@ -21,15 +21,17 @@ function Services() {
     },
   ]);
 
-  function updateGrocery() {
-    setGroceryList();
+  function upDateGrocery(data) {
+    console.log('service component callback', data);
+    setGroceryList([...data, ...groceryList]);
+    console.log('list===', groceryList);
   }
 
   return (
     <>
       <div className='service-container'>
         <h1>Our services</h1>
-        <Grocery list={groceryList} />
+        <Grocery list={groceryList} upDateGroceryCallBack = {upDateGrocery} />
       </div>
     </>
   );
